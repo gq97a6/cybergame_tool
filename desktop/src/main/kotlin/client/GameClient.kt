@@ -2,19 +2,12 @@ package client
 
 import classes.Option
 import classes.Packet
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.cbor.Cbor
 import kotlinx.serialization.encodeToByteArray
 import objects.Game
 import objects.Storage.asJson
-import okhttp3.*
 import okio.ByteString.Companion.toByteString
-import java.util.concurrent.TimeUnit
-import kotlin.random.Random
 
 @OptIn(ExperimentalSerializationApi::class)
 object GameClient {
