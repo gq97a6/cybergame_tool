@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="50"
-   height="50"
-   fill="none"
-   version="1.1"
-   id="svg44"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <g
-     clip-path="url(#clip0)"
-     id="g37">
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke-width:1.137;stroke-dasharray:none"
-       id="rect1419"
-       width="50"
-       height="50"
-       x="0"
-       y="0"
-       ry="25" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:39.1284px;font-family:Arial;-inkscape-font-specification:'Arial Heavy';fill:#ffffff;stroke-width:3.26127;stroke-dasharray:none"
-       x="8.941679"
-       y="39.004459"
-       id="text434"><tspan
+        width="50"
+        height="50"
+        fill="none"
+        version="1.1"
+        id="svg44"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <g
+            clip-path="url(#clip0)"
+            id="g37">
+        <rect
+                style="fill:#ffffff;fill-opacity:1;stroke-width:1.137;stroke-dasharray:none"
+                id="rect1419"
+                width="50"
+                height="50"
+                x="0"
+                y="0"
+                ry="25"/>
+        <text
+                xml:space="preserve"
+                style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:39.1284px;font-family:Arial;-inkscape-font-specification:'Arial Heavy';fill:#ffffff;stroke-width:3.26127;stroke-dasharray:none"
+                x="8.941679"
+                y="39.004459"
+                id="text434"><tspan
          id="tspan432"
          x="8.941679"
          y="39.004459"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Heavy';fill:#000000;fill-opacity:1;stroke-width:3.26127;stroke-dasharray:none">C</tspan></text>
-  </g>
-  <defs
-     id="defs42">
-    <clipPath
-       id="clip0">
-      <path
-         d="M 0,0 H 129 V 70 H 0 Z"
-         fill="#ffffff"
-         id="path39" />
-    </clipPath>
-  </defs>
+    </g>
+    <defs
+            id="defs42">
+        <clipPath
+                id="clip0">
+            <path
+                    d="M 0,0 H 129 V 70 H 0 Z"
+                    fill="#ffffff"
+                    id="path39"/>
+        </clipPath>
+    </defs>
 </svg>
