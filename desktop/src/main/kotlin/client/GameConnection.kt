@@ -15,7 +15,7 @@ import kotlin.random.Random
 
 object GameConnection {
     private val credentials = Credentials.basic("user", "DnQXud8E5CNPtHs")
-    private val request = Request.Builder().url("ws://alteratom.com:3000/game/${Random.nextInt()}").build()
+    private val request = Request.Builder().url("ws://one.hostunit.net/game/${Random.nextInt()}").build()
     private val client = OkHttpClient.Builder()
         .readTimeout(0, TimeUnit.MILLISECONDS)
         .authenticator { _, response ->
