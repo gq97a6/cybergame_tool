@@ -38,9 +38,13 @@ fun MainList(list: List<Option>, onAdd: (Option) -> Unit) =
                         .padding(10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
+                    val thousands = list[i].cost / 1000
+                    val rest = list[i].cost % 1000
+                    val restDisplay = String.format("%03d", rest)
+
                     Column(Modifier.weight(1f).padding(end = 10.dp)) {
                         Text(
-                            "${list[i].id}: ${list[i].name} (${list[i].cost} zł)",
+                            "${list[i].id}: ${list[i].name} ($thousands $restDisplay zł)",
                             fontSize = 20.sp,
                             fontWeight = FontWeight.Black
                         )
